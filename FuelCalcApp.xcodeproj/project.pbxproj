@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F57F4F202E26B2AB0095D92C /* FuelCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57F4F202E26B2AB0095D92C /* FuelCalcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCalcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F57F4F222E26B2AB0095D92C /* FuelCalc */ = {
+		F57F4F222E26B2AB0095D92C /* FuelCalcApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FuelCalc;
+			path = FuelCalcApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		F57F4F172E26B2AB0095D92C = {
 			isa = PBXGroup;
 			children = (
-				F57F4F222E26B2AB0095D92C /* FuelCalc */,
+				F57F4F222E26B2AB0095D92C /* FuelCalcApp */,
 				F57F4F212E26B2AB0095D92C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		F57F4F212E26B2AB0095D92C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F57F4F202E26B2AB0095D92C /* FuelCalc.app */,
+				F57F4F202E26B2AB0095D92C /* FuelCalcApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F57F4F1F2E26B2AB0095D92C /* FuelCalc */ = {
+		F57F4F1F2E26B2AB0095D92C /* FuelCalcApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F57F4F2B2E26B2AD0095D92C /* Build configuration list for PBXNativeTarget "FuelCalc" */;
+			buildConfigurationList = F57F4F2B2E26B2AD0095D92C /* Build configuration list for PBXNativeTarget "FuelCalcApp" */;
 			buildPhases = (
 				F57F4F1C2E26B2AB0095D92C /* Sources */,
 				F57F4F1D2E26B2AB0095D92C /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F57F4F222E26B2AB0095D92C /* FuelCalc */,
+				F57F4F222E26B2AB0095D92C /* FuelCalcApp */,
 			);
-			name = FuelCalc;
+			name = FuelCalcApp;
 			packageProductDependencies = (
 			);
 			productName = FuelCalc;
-			productReference = F57F4F202E26B2AB0095D92C /* FuelCalc.app */;
+			productReference = F57F4F202E26B2AB0095D92C /* FuelCalcApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F57F4F1B2E26B2AB0095D92C /* Build configuration list for PBXProject "FuelCalc" */;
+			buildConfigurationList = F57F4F1B2E26B2AB0095D92C /* Build configuration list for PBXProject "FuelCalcApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F57F4F1F2E26B2AB0095D92C /* FuelCalc */,
+				F57F4F1F2E26B2AB0095D92C /* FuelCalcApp */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F57F4F1B2E26B2AB0095D92C /* Build configuration list for PBXProject "FuelCalc" */ = {
+		F57F4F1B2E26B2AB0095D92C /* Build configuration list for PBXProject "FuelCalcApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F57F4F292E26B2AD0095D92C /* Debug */,
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F57F4F2B2E26B2AD0095D92C /* Build configuration list for PBXNativeTarget "FuelCalc" */ = {
+		F57F4F2B2E26B2AD0095D92C /* Build configuration list for PBXNativeTarget "FuelCalcApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F57F4F2C2E26B2AD0095D92C /* Debug */,
