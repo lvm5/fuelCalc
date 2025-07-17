@@ -1,4 +1,4 @@
-//
+//  APLICANDO O CONCEITO DE GUARD LET
 //  ContentView.swift
 //  FuelCalc
 //
@@ -17,7 +17,21 @@ struct ContentView: View {
     @State private var selectedPickerDefault: FuelType = .gasoline
 //    let result: Double = Double(resultCalc)
     
+    /// COMO USAR IF LET
+//    @State private var testeVar: String = "1001"
+   
+    
+    
     func calc() {
+        
+        /// COMO USAR IF LET
+//        let testeVarInt = Int(testeVar)
+//        if let testeVarInt {
+//            print("Converted number: \(testeVarInt)")
+//        }
+        
+        
+        
         // Tenta converter a String para Double
         guard let doubleBombPrice = Double(bombPrice) else {
             print("❌ Erro valor")
